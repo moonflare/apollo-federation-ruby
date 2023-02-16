@@ -18,10 +18,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = '>= 2.2.0' # bc of `.to_sym`
 
   spec.metadata    = {
-    'homepage_uri' => 'https://github.com/Gusto/apollo-federation-ruby',
-    'changelog_uri' => 'https://github.com/Gusto/apollo-federation-ruby/releases',
-    'source_code_uri' => 'https://github.com/Gusto/apollo-federation-ruby',
-    'bug_tracker_uri' => 'https://github.com/Gusto/apollo-federation-ruby/issues',
+    'allowed_push_host' => 'https://zdrepo.jfrog.io/zdrepo/api/gems/gems-local/',
   }
 
   spec.files = `git ls-files bin lib *.md LICENSE`.split("\n")
